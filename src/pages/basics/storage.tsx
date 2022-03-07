@@ -141,7 +141,7 @@ const Storage = () => {
           Inside the function, we fetch the value of the count variable by using{" "}
           <Code>let (value) = count.read()</Code>. Then, on line 20, we return
           the value. If our value had a different name (ex: diff_name) than the
-          return variable, we would have to explicity asign the value to the
+          return variable, we would have to explicity assign the value to the
           return variable by changing line 20 to{" "}
           <Code>return (value=diff_name)</Code>.
         </Text>
